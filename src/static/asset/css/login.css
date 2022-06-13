@@ -1,0 +1,137 @@
+@font-face {
+    font-family: mission;
+    src:url(../font/alegreyasans-black.ttf);
+}
+@font-face {
+    font-family: footer;
+    src:url(../font/HKGrotesk-Bold.otf);
+}
+
+body{
+    overflow: hidden;
+    background-color: #e4dcce;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+    /*div globale*/
+.Divconnecter{
+    width: 402px;
+    height: 345px;
+    border: solid 12px #25995c;
+    background-color: #92dbb4;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 8%;
+}
+    /*div titre*/
+.connexion{
+    font-family: mission;
+    color: black;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 10px #25995c;
+}
+    /*div question*/
+.question{
+    margin-top: 8%;
+    font-family: footer;
+    color: black;
+    text-align: center;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    margin-right: 3px;  
+}
+
+.Divinscrire{
+    width: 100px;
+    height: 30px;
+    background-color: #25995c;
+    border-radius: 10px;
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+}
+
+.inscrire{
+    font-family: footer;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+}
+.up{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+    /*partie mail*/
+.email{
+    margin-left: 8%;
+    font-family: mission;
+    color: black;
+    text-align: left;
+    font-size: 25px;
+    display: flex;
+    align-content: flex-start;  
+}
+
+.zone_email{
+    margin-left: 6%;
+    width: 355px;
+    height: 55px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+input{
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: footer;
+}
+    /*partie mot de passe*/
+.mdp{
+    margin-top: 10px;
+    margin-left: 8%;
+    font-family: mission;
+    color: black;
+    text-align: left;
+    font-size: 25px;
+    display: flex;
+    align-content: flex-start;  
+}
+.zone_mdp{
+    margin-left: 6%;
+    width: 355px;
+    height: 55px;
+    background-color: white;
+    border-radius: 10px;
+}
+.Diventrer{
+    width: 150px;
+    height: 45px;
+    background-color: #25995c;
+    border-radius: 10px;
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+}
+
+.entrer{
+    font-family: footer;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+}
