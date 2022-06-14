@@ -1,0 +1,240 @@
+@font-face {
+    font-family: mission;
+    src:url(../font/alegreyasans-black.ttf);
+}
+@font-face {
+    font-family: footer;
+    src:url(../font/HKGrotesk-Bold.otf);
+}
+
+body{
+    overflow: hidden;
+    background-color: #fff9ed;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#logo{
+    display: flex;
+    margin-top: -5px;
+    width : 85px;
+    height : 85px;
+}
+
+h1 {
+    font-family: mission;
+    font-size: 45px;
+}
+
+    /*titre*/
+.titre{
+    display: flex;
+    justify-items: flex-start;
+}
+.nav{
+    display: flex;
+    font-family: footer;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 10px;
+    margin-top: -20px;
+}
+    /*id*/
+.id{
+    display: flex;
+    margin-left: 620px;
+    font-size: 30px;
+    font-family: mission;
+}
+hr{
+    height: 3px;
+    background-color:black;
+    width: 100%;
+    position: absolute;
+    bottom: 50px;
+}
+.barre{
+    height: 3px;
+    background-color:black;
+    width: 100%;
+    position: absolute;
+    top: 75px;
+}
+
+/*page globale*/
+.global{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+/*page haut gauche*/
+.hautgauche{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+    /*image*/
+#pdp{
+    display: flex;
+    margin-left: 10px;
+    width : 170px;
+    height : 170px;
+}
+   /* div des 3 renseignements*/
+
+.renseignement{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 10px;
+    justify-content: space-around;
+}
+    /*zone de saisie*/
+input{
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    font-family: footer;
+    border: none;
+    border-bottom: solid 2px black;
+    background-color: transparent;
+    margin-left: 4px;
+}
+input:focus{
+    outline: none;
+}
+.zone_texte{
+    display: flex;
+    flex-direction: row;
+}
+    /*champs nom*/
+.nom{
+    display: flex;
+    font-size: 30px;
+    font-family: mission;
+}
+    /*champs prenom*/
+.prenom{
+    display: flex;
+    font-size: 30px;
+    font-family: mission;
+}
+
+    /*champs statut*/
+.statut{
+    display: flex;
+    font-size: 30px;
+    font-family: mission;
+}
+    /*bas gauche*/
+
+.bio{
+    display: flex;
+    font-size: 30px;
+    font-family: mission;
+    align-items: flex-end;
+}
+.zone_bio{
+    margin-left: 35px;
+    width: 450px;
+    height: 200px;
+    font-size: 20px;
+    font-family: footer;
+    background-color: white;
+}
+textarea{
+    background-color: white;
+    border: none;
+    resize: none;
+    width: 99%; 
+    background-repeat: no-repeat;
+    font-size: 16px;
+    font-family: footer;
+    
+}
+
+textarea:focus{
+    outline: none;
+}
+    /*page côté droit*/
+.droite{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.last{
+    display: flex;
+    flex-direction: column;
+}
+.last_missions{
+    display: flex;
+    font-size: 30px;
+    font-family: mission;
+}
+.illustration{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.vert{
+    width: 150px;
+    height: 45px;
+    background-color: #92dbb4;
+    border-radius: 10px;
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+}
+    /*page bas droite*/
+.basdroit{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.valider{
+    display: flex;
+    align-content: center;
+
+}
+.valid{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: mission;
+}
+.vertfonce{
+    width: 150px;
+    height: 45px;
+    background-color: #25995c;
+    border-radius: 10px;
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+}
+    /*bas de page*/
+.foot{
+    display: flex;
+    font-family: footer;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    align-self: flex-end;
+    position: absolute;
+    bottom: 0%;
+}
+
+#insta{
+    float: right;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
