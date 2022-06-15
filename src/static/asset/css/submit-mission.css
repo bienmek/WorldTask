@@ -1,0 +1,202 @@
+@font-face {
+    font-family: mission;
+    src:url(../font/alegreyasans-black.ttf);
+}
+@font-face {
+    font-family: footer;
+    src:url(../font/HKGrotesk-Bold.otf);
+}
+
+body{
+    overflow: hidden;
+    background-color: #fff9ed;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#logo{
+    display: flex;
+    margin-top: -4px;
+    width : 85px;
+    height : 85px;
+}
+
+h1 {
+    font-family: mission;
+    font-size: 40px;
+}
+
+    /*titre de la page*/
+.titre{
+    display: flex;
+    justify-items: flex-start;
+}
+.nav{
+    display: flex;
+    font-family: footer;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 10px;
+    margin-top: -20px;
+}
+    /*id*/
+.id{
+    display: flex;
+    margin-left: 300px;
+    font-size: 30px;
+    font-family: mission;
+}
+hr{
+    height: 3px;
+    background-color:black;
+    width: 100%;
+    position: absolute;
+    bottom: 50px;
+}
+.barre{
+    height: 3px;
+    background-color:black;
+    width: 100%;
+    position: absolute;
+    top: 65px;
+}
+
+    /*Global*/
+.global{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row; 
+}
+    /*page coté gauche*/
+.gauche{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+    /*haut gauche*/
+.hautgauche{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.partiehaute{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#img1{
+    margin-left: 10px;
+    width : 195px;
+    height : 185px;
+}
+
+#img2{
+    margin-left: -10px;
+    margin-top: -4px;
+    width : 285px;
+    height : 190px;
+}
+.partiebasse{
+    display: flex;
+    justify-content: flex-start;
+}
+
+#img3{
+    margin-left: 10px;
+    margin-top: -20px;
+    width : 475px;
+    height : 190px;
+}
+    /*bas gauche*/
+.basgauche{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 30px;
+    margin-top: -10px;
+}
+
+    
+    /*page coté droit*/
+.droite{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+    /*description*/
+.description{
+    display: flex;
+    font-size: 30px;
+    font-family: mission;
+    align-items: flex-end;
+}
+.zone_description{
+    margin-left: 35px;
+    width: 450px;
+    height: 200px;
+    font-size: 20px;
+    font-family: footer;
+    background-color: white;
+    margin-top: 40px;
+}
+textarea{
+    background-color: white;
+    border: none;
+    resize: none;
+    width: 99%; 
+    background-repeat: no-repeat;
+    font-size: 16px;
+    font-family: footer;
+        
+}
+    
+textarea:focus{
+    outline: none;
+}
+    /*bouton valider*/
+.valider{
+    display: flex;
+    align-content: center;
+    margin-left: 200px;
+}
+.valid{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: mission;
+}
+.vertfonce{
+     width: 150px;
+    height: 45px;
+    background-color: #25995c;
+    border-radius: 10px;
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+}
+
+    /*bas de page*/
+.foot{
+    display: flex;
+    font-family: footer;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    align-self: flex-end;
+    position: absolute;
+    bottom: 0%;
+}
+
+#insta{
+    float: right;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
